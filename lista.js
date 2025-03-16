@@ -12,8 +12,7 @@ BotaoAdd.addEventListener('click', function() {
             if (marcado == false) {
                 tarefa.style.textDecoration = 'line-through' 
                 marcado = true;
-            }
-            else {
+            } else {
                tarefa.style .textDecoration = '';
                marcado = false;
             }
